@@ -84,10 +84,10 @@
 
     base {
       bindings = <
-         &kp TAB  &kp Q  &kp W  &kp F  &kp P      &kp B      &kp J   &kp U      &kp U       &kp Y  &kp APOSTROPHE  &trans
-  &kp LEFT_SHIFT  &kp A  &kp R  &kp S  &kp T      &kp G      &kp M   &kp N      &kp E       &kp I           &kp O  &trans
-&kp LEFT_CONTROL  &kp Z  &kp X  &kp C  &kp D      &kp V      &kp K   &kp H  &kp COMMA  &kp PERIOD       &kp SLASH  &trans
-                                &to 2  &to 1  &kp SPACE    &kp RET  &trans     &trans
+         &kp TAB  &kp Q  &kp W  &kp F  &kp P      &kp B      &kp J   &kp U      &kp U       &kp Y  &kp APOSTROPHE  &kp BSPC
+  &kp LEFT_SHIFT  &kp A  &kp R  &kp S  &kp T      &kp G      &kp M   &kp N      &kp E       &kp I           &kp O    &trans
+&kp LEFT_CONTROL  &kp Z  &kp X  &kp C  &kp D      &kp V      &kp K   &kp H  &kp COMMA  &kp PERIOD       &kp SLASH    &trans
+                                &mo 2  &mo 1  &kp SPACE    &kp RET  &trans     &trans
       >;
     };
 
@@ -111,17 +111,6 @@
       >;
 
       label = "Fun";
-    };
-
-    Clipboard {
-      bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &kp RC(INS)
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans       &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans       &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
-      >;
-
-      label = "Clipboard";
     };
   };
 };
