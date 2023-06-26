@@ -37,6 +37,16 @@
       bindings = <&kp DEL>;
       key-positions = <10 11>;
     };
+
+    left_alt {
+      bindings = <&kp LEFT_ALT>;
+      key-positions = <36 37>;
+    };
+
+    right_alt {
+      bindings = <&trans>;
+      key-positions = <40 41>;
+    };
   };
 
   macros {
