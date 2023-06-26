@@ -111,9 +111,9 @@
 
     Sym {
       bindings = <
-&kp TILDE  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &trans    &trans  &trans  &trans  &trans  &kp MINUS  &kp EQUAL
-   &trans  &trans  &trans      &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &kp SEMI    &trans  &trans  &trans  &trans     &trans     &trans
-   &trans  &trans  &trans         &kp LESS_THAN       &kp GREATER_THAN    &trans    &trans  &trans  &trans  &trans     &trans     &trans
+&kp TILDE  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &trans    &trans  &trans  &trans  &kp MINUS  &kp EQUAL  &trans
+   &trans  &trans  &trans      &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &kp SEMI    &trans  &trans  &trans     &trans     &trans  &trans
+   &trans  &trans  &trans         &kp LESS_THAN       &kp GREATER_THAN    &trans    &trans  &trans  &trans     &trans     &trans  &trans
                                          &trans                 &trans    &trans    &trans  &trans  &trans
       >;
 
