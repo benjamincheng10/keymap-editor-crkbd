@@ -44,7 +44,7 @@
     };
 
     right_alt {
-      bindings = <&trans>;
+      bindings = <&kp RIGHT_ALT>;
       key-positions = <40 41>;
     };
   };
