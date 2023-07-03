@@ -48,12 +48,6 @@
       bindings = <&kp RIGHT_ALT>;
       key-positions = <40 41>;
     };
-
-    bt_layer {
-      bindings = <&tog 5>;
-      key-positions = <36 37 40 41>;
-      layers = <5>;
-    };
   };
 
   macros {
@@ -97,7 +91,7 @@
     Fun {
       bindings = <
 &kp ESC  &trans  &trans  &trans  &trans  &trans    &trans  &kp F7  &kp F8  &kp F9  &kp F12  &kp C_VOL_UP
- &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp F4  &kp F5  &kp F6  &kp F11  &kp C_VOL_DN
+ &tog 5  &trans  &trans  &trans  &trans  &trans    &trans  &kp F4  &kp F5  &kp F6  &kp F11  &kp C_VOL_DN
  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp F1  &kp F2  &kp F3  &kp F10    &kp C_MUTE
                          &trans  &trans  &trans    &trans  &trans  &trans
       >;
