@@ -48,6 +48,16 @@
       bindings = <&kp RIGHT_ALT>;
       key-positions = <40 41>;
     };
+
+    rwin {
+      bindings = <&kp RIGHT_WIN>;
+      key-positions = <34 33>;
+    };
+
+    lwin {
+      bindings = <&kp LEFT_WIN>;
+      key-positions = <25 26>;
+    };
   };
 
   macros {
