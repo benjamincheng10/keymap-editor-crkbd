@@ -6,8 +6,8 @@ readable layout and keymap definitions for use with [keymap-editor] tool.
 This repo defines the Colemak DHm layout, and adds support for nice_view lcd
 displays
 
-TODO: replace the screenshot with actual layout
-![Screenshot](screenshot.png) 
+The layers look like this:
+[https://github.com/caksoylar/keymap-drawer](https://keymap-drawer.streamlit.app/?zmk_url=https%3A%2F%2Fgithub.com%2Fleg0%2Fkeymap-editor-crkbd%2Fblob%2Fmain%2Fconfig%2Fcorne.keymap)
 
 ## What's included
 
