@@ -80,7 +80,7 @@
 
     base {
       bindings = <
-         &kp TAB  &kp Q  &kp W  &kp F  &kp P      &kp B      &kp J  &kp L      &kp U       &kp Y  &kp APOSTROPHE       &kp BSPC
+     &mt ESC TAB  &kp Q  &kp W  &kp F  &kp P      &kp B      &kp J  &kp L      &kp U       &kp Y  &kp APOSTROPHE       &kp BSPC
   &kp LEFT_SHIFT  &kp A  &kp R  &kp S  &kp T      &kp G      &kp M  &kp N      &kp E       &kp I           &kp O  &kp BACKSLASH
 &kp LEFT_CONTROL  &kp Z  &kp X  &kp C  &kp D      &kp V      &kp K  &kp H  &kp COMMA  &kp PERIOD       &kp SLASH       &kp SEMI
                                 &mo 2  &mo 1  &kp SPACE    &kp RET  &mo 3      &mo 4
@@ -100,10 +100,10 @@
 
     Fun {
       bindings = <
-&kp ESC  &trans  &trans  &trans  &trans  &trans    &trans  &kp F7  &kp F8  &kp F9  &kp F12  &kp C_VOL_UP
- &tog 5  &tog 1  &tog 2  &tog 3  &tog 4  &trans    &trans  &kp F4  &kp F5  &kp F6  &kp F11  &kp C_VOL_DN
- &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp F1  &kp F2  &kp F3  &kp F10    &kp C_MUTE
-                         &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp F7  &kp F8  &kp F9  &kp F12  &kp C_VOL_UP
+&tog 5  &tog 1  &tog 2  &tog 3  &tog 4  &trans    &trans  &kp F4  &kp F5  &kp F6  &kp F11  &kp C_VOL_DN
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp F1  &kp F2  &kp F3  &kp F10    &kp C_MUTE
+                        &trans  &trans  &trans    &trans  &trans  &trans
       >;
 
       label = "Fun";
