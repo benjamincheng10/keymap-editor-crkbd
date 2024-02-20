@@ -108,10 +108,10 @@
 
     Nav {
       bindings = <
-&trans  &trans  &trans     &mkp MB4   &mkp MB5   &trans    &trans  &kp HOME            &kp UP_ARROW    &kp END              &kp PAGE_UP    &trans
-&trans  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans    &trans  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp PAGE_DOWN  &trans
-&trans  &trans  &trans     &trans     &trans     &trans    &trans  &kp LC(LEFT_ARROW)  &trans          &kp LC(RIGHT_ARROW)  &trans         &trans
-                           &trans     &trans     &trans    &trans  &trans              &trans
+&trans  &trans  &trans    &kp PAGE_UP    &trans   &trans    &trans  &kp HOME            &kp UP_ARROW    &kp END              &kp PAGE_UP    &trans
+&trans  &trans  &kp HOME  &kp PAGE_DOWN  &kp END  &trans    &trans  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp PAGE_DOWN  &trans
+&trans  &trans  &trans    &trans         &trans   &trans    &trans  &kp LC(LEFT_ARROW)  &trans          &kp LC(RIGHT_ARROW)  &trans         &trans
+                          &trans         &trans   &trans    &trans  &trans              &trans
       >;
 
       label = "Nav";
